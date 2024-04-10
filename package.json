@@ -1,13 +1,7 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "socket.io": "^4.7.5"
-  },
   "name": "prectise-lab-server",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
@@ -16,5 +10,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
 }
